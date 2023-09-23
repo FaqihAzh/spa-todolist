@@ -7,8 +7,8 @@ export function useTasks(initialTasks) {
 
   const addTask = (task) => {
     setTasks([
-      ...tasks,{ id: Date.now(), task, complete: false, editing: false },
-      
+      { id: Date.now(), task: task, complete: false, editing: false },
+      ...tasks,
     ]);
   };
 
