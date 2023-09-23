@@ -2,7 +2,7 @@ import React from "react";
 import { Task } from "../Task";
 
 export const TaskList = ({ tasks, toggleTask, editTask, deleteTask }) => {
-  const taskData = tasks.reverse();
+  const taskData = tasks;
 
   return (
     <ul className="task-list max-h-[17.6rem] overflow-y-auto gap-2 flex flex-col items-center">
