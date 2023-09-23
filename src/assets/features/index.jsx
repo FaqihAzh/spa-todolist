@@ -2,7 +2,6 @@ import { useState } from "react";
 
 export function useTasks(initialTasks) {
   const [tasks, setTasks] = useState(initialTasks);
-  const [searchResult, setSearchResult] = useState(tasks);
   const [filter, setFilter] = useState("all");
   const [search, setSearch] = useState("");
 
