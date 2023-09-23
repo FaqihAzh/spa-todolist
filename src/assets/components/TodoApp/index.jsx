@@ -28,7 +28,7 @@ export const TodoApp = () => {
         <span className="text-red-600">TO</span>
         <span className="text-blue-600">DO </span>LIST
       </h1>
-      <div className="w-3/4 flex flex-col lg:flex-row justify-center lg:justify-between gap-4">
+      <div className="w-3/4 flex flex-col lg:flex-row justify-center lg:justify-around gap-4">
         <div className="w-max-2/4">
           <div className="flex flex-col gap-4 w-full">
             <TaskSearch
